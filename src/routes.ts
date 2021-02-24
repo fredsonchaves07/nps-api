@@ -7,4 +7,4 @@ const userConstroler = new UserController()
 
 router.post("/users", userConstroler.create)
 
-export {router};
+export {router}
